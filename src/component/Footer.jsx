@@ -2,7 +2,7 @@ import React from "react";
 import logo from '../Assets/images/logo.svg';
 
 
-const Footer = () => {
+function Footer () {
     return(
 <footer class="footer">
 		<div class="footer-logo">
