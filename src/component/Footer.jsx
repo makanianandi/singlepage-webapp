@@ -1,20 +1,23 @@
 import React from "react";
+import logo from '../Assets/images/logo.svg';
+
+
 const Footer = () => {
     return(
-<div class="footer">
-  <div>
-    <h4>Indian Cuisine | Street Food</h4>
-    <p>
-      Images used from <a href="https://www.pexels.com/photo/homemade-chicken-biryani-4224312/">PIXELS
-        &copy;</a><br />
-    </p>
-  </div>
-  <p>
-    Call: <a href="tel:+1-226-593-9590">+1-226-593-9590</a> <br />
-    Email: <a href="mailto:Indiancuisine@gmail.com">Indiancuisine@gmail.com</a>
-  </p>
-</div>
+<footer class="footer">
+		<div class="footer-logo">
+			<img src={logo} />
+		</div>
+		<div class="social-media">
+			<i class="fa fa-facebook-square"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa fa-youtube-play"></i>
+			<i class="fa fa-twitter"></i>
+		</div>
+		<div class="copyright">
+			<p class="fs-16 secondary-text">© late 2022 Starbelly. All Rights Reserved.</p>
+		</div>
+	</footer>
 )
 }
-
 export  default Footer
