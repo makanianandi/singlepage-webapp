@@ -1,7 +1,10 @@
 import React from "react";
-// import interior from '../Assets/images/interior.png';
-
-
+import interior from './../Assets/images/interior.jpg';
+import chef1 from './../Assets/images/chef1.png';
+import chef2 from './../Assets/images/chef2.png';
+import chef3 from './../Assets/images/chef3.png';
+import chef4 from './../Assets/images/chef4.png';
+import delivery from './../Assets/images/delivery.png';
 function About() {
     return(
         <div class="container">
@@ -19,8 +22,6 @@ function About() {
                 <div class="img-content w-50">
                     <div class="third-heading fs-40">Restaurant is like a theater.<br />
                         Our task is to amaze you!</div>
-
-                    
                     <div class="secondary-text fs-16 mt-25 line-height-2">In our modern yet relaxed interior, our well-informed team truly delivers on the promise of world-class service. It's often been said that the food at Stratus is even better than the view. Join us, and we'll let you decide…is it the food or the view you love the most?</div>
                     <div class="secondary-text fs-16 mt-25 line-height-2">Treat yourself and your guests to the delicious dishes on our carefully curated menus, that derive inspiration from local markets and feature fresh seasonal vegetables and favourite comfort foods.</div>
                     <div class="mt-25 mb-sm-25">
@@ -29,7 +30,7 @@ function About() {
                 </div>
                 <div class="w-50">
                     <div class="img-video">
-                        <img src="images/interior.png" class="img-responsive" />
+                        <img src={interior} class="img-responsive" />
                         <div class="video-icon">
                             <a href="https://www.youtube.com/watch?v=F3zw1Gvn4Mk" target="_blank" ><i
                                     class="fa fa-play-circle-o"></i></a>
@@ -45,7 +46,7 @@ function About() {
                 <div class="grid-container">
                     <div class="grid-items-chef">
                         <div class="faded-back">
-                            <img src="images/chef1.png" class="img-responsive" />
+                            <img src={chef1} class="img-responsive" />
                         </div>
                         <div class="chef-content">
                             <div class="fw-bold fs-18">Paul Trueman</div>
@@ -60,7 +61,7 @@ function About() {
                     </div>
                     <div class="grid-items-chef">
                         <div class="faded-back">
-                            <img src="images/chef2.png" class="img-responsive" />
+                            <img src={chef2} class="img-responsive" />
                         </div>
                         <div class="chef-content">
                             <div class="fw-bold fs-18">Emma Newman</div>
@@ -75,7 +76,7 @@ function About() {
                     </div>
                     <div class="grid-items-chef">
                         <div class="faded-back">
-                            <img src="images/chef3.png" class="img-responsive" />
+                            <img src={chef3} class="img-responsive" />
                         </div>
                         <div class="chef-content">
                             <div class="fw-bold fs-18">Oscar Oldman</div>
@@ -90,7 +91,7 @@ function About() {
                     </div>
                     <div class="grid-items-chef">
                         <div class="faded-back">
-                            <img src="images/chef4.png" class="img-responsive" />
+                            <img src={chef4} class="img-responsive" />
                         </div>
                         <div class="chef-content">
                             <div class="fw-bold fs-18">Ed Freeman</div>
@@ -113,7 +114,7 @@ function About() {
                         </div>
                     </div>
                     <div class="delivery-img">
-                        <img src="images/delivery.png" class="img-responsive" />
+                        <img src={delivery} class="img-responsive" />
                     </div>
                 </div>
             </div>
